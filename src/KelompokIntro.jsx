@@ -66,7 +66,7 @@ export default function KelompokIntro() {
             nickname: "Al",
             birthPlace: "Bekasi",
             birthDate: "8 April 2011",
-            hobi: ["Main Mobile Legends", "Main basket", "Mendengarkan musik"],
+            hobi: ["Main Mobile Legends", "Main Basket", "Mendengarkan Musik"],
             favFood: "Mie ayam",
             favDrink: "Matcha",
             email: "satrialvaro08@gmail.com",
@@ -84,7 +84,7 @@ export default function KelompokIntro() {
             nickname: "Patung",
             birthPlace: "Bekasi",
             birthDate: "11 Desember 2010",
-            hobi: ["Main bola", "Main Roblox", "Main basket"],
+            hobi: ["Main Bola", "Main Roblox", "Main Basket"],
             favFood: "Dendeng",
             favDrink: "Es teh",
             email: "ruokt695@gmail.com",
@@ -117,12 +117,12 @@ export default function KelompokIntro() {
             id: "siswa-4",
             nama: "Ghasan",
             longName: "Ghasan Azzahrif",
-            nickname: "ghasan",
+            nickname: "Ghasan",
             birthPlace: "Kranji",
             birthDate: "19 Juni 2011",
-            hobi: ["maen bola"],
-            favFood: "mie ayam",
-            favDrink: "teh",
+            hobi: ["Main Bola"],
+            favFood: "Mie Ayam",
+            favDrink: "Teh",
             email: "ffg770533@gmail.com",
             instagram: "https://instagram.com/ghasanazzahrif19",
             whatsapp: "088213400265",
@@ -254,15 +254,6 @@ export default function KelompokIntro() {
                                 pada pemrograman.
                             </li>
                         </ul>
-                    </div>
-
-                    <div className="mt-8">
-                        <a
-                            href={`#${siswa[0].id}`}
-                            className="inline-flex items-center gap-2 rounded-xl border border-emerald-700 bg-emerald-900/60 px-4 py-2 text-xs md:text-sm hover:bg-emerald-800"
-                        >
-                            Lihat biodata lengkap →
-                        </a>
                     </div>
                 </div>
             </section>
