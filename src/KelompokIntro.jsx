@@ -143,7 +143,7 @@ export default function KelompokIntro() {
         });
     }, []);
 
-    const navItems = [{ label: "Beranda", href: "#home" }, ...siswa.map((s) => ({ label: s.nama, href: `#${s.id}` }))];
+    const navItems = [...siswa.map((s) => ({ label: s.nama, href: `#${s.id}` }))];
 
     return (
         <div className="scroll-smooth min-h-screen bg-emerald-950 text-emerald-50 text-[14px] md:text-base">
