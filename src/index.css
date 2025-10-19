@@ -1,0 +1,14 @@
+/* Wajib: satu baris ini mengaktifkan Tailwind v4.1 */
+@import "tailwindcss";
+
+/* Opsional: hal kecil yang kamu sudah pakai */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Kalau mau, kamu bisa set token font pakai @theme (opsional)
+@theme {
+  --font-sans: Inter, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+*/
